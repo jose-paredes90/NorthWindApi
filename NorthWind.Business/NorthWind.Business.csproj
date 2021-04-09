@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NorthWind.Dto\NorthWind.Dto.csproj" />
+    <ProjectReference Include="..\NorthWind.Entity\NorthWind.Entity.csproj" />
+    <ProjectReference Include="..\NorthWind.Interfaces\NorthWind.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -7,7 +7,7 @@ namespace NorthWind.Interfaces.Business
 {
     public interface IProductsBiz
     {
-        List<ProductsDto> GetProducts();
+        List<ProductsDto> GetProducts(int categoryId);
         List<ProductsDto> BestSellingProducts(int cantidad);
     }
 }

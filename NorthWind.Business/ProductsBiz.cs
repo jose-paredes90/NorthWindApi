@@ -18,9 +18,10 @@ namespace NorthWind.Business
             northwindContext = context;
             this.mapper = mapper;
         }
-        public List<ProductsDto> GetProducts()
+        public List<ProductsDto> GetProducts(int categoryId)
         {
-            var products = northwindContext.Products.ToList();
+            var products = northwindContext.Products
+                                .Where(x=> x.CategoryId == categoryId).ToList();
             var response = mapper.Map<List<Products>, List<ProductsDto>>(products);
             return response;
         }

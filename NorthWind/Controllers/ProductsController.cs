@@ -23,9 +23,9 @@ namespace NorthWind.Controllers
         }
 
         [HttpGet, Route("")]
-        public IActionResult Get()
+        public IActionResult Get([FromQuery] int categoryId)
         {
-            List<ProductsDto> products = productsBiz.GetProducts();
+            List<ProductsDto> products = productsBiz.GetProducts(categoryId);
             return Ok(products);
         }
 
@@ -35,5 +35,6 @@ namespace NorthWind.Controllers
             var topTen = productsBiz.BestSellingProducts(cantidad);
             return Ok(topTen);
         }
+
     }
 }

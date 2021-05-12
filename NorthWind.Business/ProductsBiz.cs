@@ -2,10 +2,8 @@
 using NorthWind.Dto;
 using NorthWind.Entity.Models;
 using NorthWind.Interfaces.Business;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace NorthWind.Business
 {
@@ -13,6 +11,7 @@ namespace NorthWind.Business
     {
         private readonly NorthwindContext northwindContext;
         private readonly IMapper mapper;
+
         public ProductsBiz(IMapper mapper, NorthwindContext context)
         {
             northwindContext = context;
@@ -21,7 +20,7 @@ namespace NorthWind.Business
         public List<ProductsDto> GetProducts(int categoryId)
         {
             var products = northwindContext.Products
-                                .Where(x=> x.CategoryId == categoryId).ToList();
+                           .Where(x=> x.CategoryId == categoryId).ToList();
             var response = mapper.Map<List<Products>, List<ProductsDto>>(products);
             return response;
         }

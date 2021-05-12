@@ -5,13 +5,13 @@ VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NorthWind", "NorthWind\NorthWind.csproj", "{0E3B5762-9950-46A2-97BF-DBE8A11F8D41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Entity", "NorthWind.Entity\NorthWind.Entity.csproj", "{4B55603A-1850-4562-ABAF-08E908033EBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NorthWind.Entity", "NorthWind.Entity\NorthWind.Entity.csproj", "{4B55603A-1850-4562-ABAF-08E908033EBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Business", "NorthWind.Business\NorthWind.Business.csproj", "{4C125FF2-81DF-4CFB-8D43-0E3309FA8A3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NorthWind.Business", "NorthWind.Business\NorthWind.Business.csproj", "{4C125FF2-81DF-4CFB-8D43-0E3309FA8A3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Dto", "NorthWind.Dto\NorthWind.Dto.csproj", "{B9A80251-459C-4099-AC49-FD5478B13ABA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NorthWind.Dto", "NorthWind.Dto\NorthWind.Dto.csproj", "{B9A80251-459C-4099-AC49-FD5478B13ABA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Interfaces", "NorthWind.Interfaces\NorthWind.Interfaces.csproj", "{04ADC4D5-EEEE-4F9E-A8E1-E4FCB12C1BB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NorthWind.Interfaces", "NorthWind.Interfaces\NorthWind.Interfaces.csproj", "{04ADC4D5-EEEE-4F9E-A8E1-E4FCB12C1BB3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{232EF109-44C5-49BA-98CC-A60411150B4D}"
 EndProject

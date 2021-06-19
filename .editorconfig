@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# CS0006: Metadata file 'C:\JOSE\NET\NorthWind\NorthWind\NorthWind.Business\bin\Debug\netcoreapp3.1\NorthWind.Business.dll' could not be found
+dotnet_diagnostic.CS0006.severity = error

@@ -39,6 +39,7 @@ namespace NorthWind
             services.AddTransient<ICategoryBiz, CategoryBiz>();
             services.AddTransient<ILoginBiz, LoginBiz>();
             services.AddTransient<ICustomerBiz, CustomerBiz>();
+            services.AddTransient<ISupplierBiz, SupplierBiz>();
 
             services.AddSwaggerGen(c =>
             {

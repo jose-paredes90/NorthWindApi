@@ -22,6 +22,8 @@ namespace NorthWind.Helpers
                 .ForMember(x => x.UserName, src => src.MapFrom(m => m.UserName ));
             CreateMap<Customers, CustomerDto>()
                 .ForMember(x => x.CompanyName, src => src.MapFrom(m => m.CompanyName));
+            CreateMap<Suppliers, SupplierDto>()
+                .ForMember(x => x.CompanyName, src => src.MapFrom(m => m.CompanyName));
         }
     }
 }
